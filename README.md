@@ -5,12 +5,10 @@ This project is part of the course **"Ethics, Fairness, and Explanation in AI"**
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
-- [Tasks](#tasks)
   - [1. Exploratory Data Analysis](#1-exploratory-data-analysis)
   - [2. Feature Attribution Explanations](#2-feature-attribution-explanations)
   - [3. Counterfactual Explanations](#3-counterfactual-explanations)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [References](#references)
@@ -59,3 +57,20 @@ You can install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+
+- To run the exploratory data analysis, open `titanic_analysis.ipynb` and execute the cells.
+- For feature attribution and counterfactual explanation tasks, run the Python scripts in the corresponding directories.
+- Evaluate the results by reviewing the generated plots and results in the `evaluation_results/` and `counterfactual_results/` directories.
+
+## Results
+
+The report summarizes the results of each task, including key observations and conclusions. The full report can be found in `report.pdf`.
+
+## References
+
+- **SHAP**: [https://github.com/slundberg/shap](https://github.com/slundberg/shap)
+- **Captum**: [https://captum.ai/](https://captum.ai/)
+- **Wachter et al. (WAC)**: Wachter, S., Mittelstadt, B., & Russell, C. (2017). *Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR*. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems.
